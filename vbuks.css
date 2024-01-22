@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('fon.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+#vbaks-section-content {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.vbaks-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(34, 38, 110);
+    max-width: 1000px !important;
+}
+
+.vbaks-item img {
+    width: 100% !important;;
+    height: auto !important;;
+    object-fit: cover !important;;
+    border-radius: 10px v;
+    margin: 0 auto !important;;
+}
+.vbaks-item p {
+    color: #0e9c2d;
+}
+button {
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
